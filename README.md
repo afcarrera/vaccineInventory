@@ -3,7 +3,7 @@
 
 ## Información
 ***
-Registro de vacunas.
+Inventario de vacunas.
 ## Tecnologías
 ***
 * [Java](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html): Version 11
