@@ -51,7 +51,7 @@ El detalle de los endpoint es el siguiente.
     "identification" : "123456789",
     "firstName" :"Alberto",
     "secondName" :"Francisco",
-    "firstSurname" :"Quito",
+    "firstSurname" :"Carrera",
     "secondSurname": "Ecuador",
     "email":"acarrera@mail.com"
 }
@@ -87,7 +87,7 @@ El detalle de los endpoint es el siguiente.
             "date" : "2021-09-01"
         }
     ],
-    "birthdayDate" :"1994-09-25"
+    "birthdayDate" :"1994-01-01"
 }
 ```
 ### GET ALL
