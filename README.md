@@ -8,7 +8,7 @@ Inventario de vacunas.
 ***
 * [Java](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html): Version 11
 * [Spring Boot](https://spring.io/projects/spring-boot): Version 2.6.7
-* [IntelliJ IDEA](https://www.jetbrains.com/es-es/idea/): Community Edition 2022.1
+* [IntelliJ IDEA](https://www.jetbrains.com/es-es/idea/): Ultimate 2022.1
 * [PostgreSQL](https://www.postgresql.org/docs/9.3/release-9-3-2.html): Version 9.3.2
 
 ## Instalación
