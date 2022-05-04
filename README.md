@@ -41,6 +41,7 @@ Los datos de entrada necesarios para uso del API son:
 | employee | vaccinationStatusId | V, N |
 | vaccination | doseId | 1S, 2S, 1AZ, 2AZ, 3AZ, 1P, 2P, 3P, 1JJ, 2JJ |
 | vaccine | type | S, AZ, P, JJ |
+
 El detalle de los endpoint es el siguiente.
 ### POST
 [/employee](#)   
