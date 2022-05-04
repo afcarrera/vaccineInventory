@@ -16,7 +16,7 @@ Registro de vacunas.
 Comandos recomendados para instalación en plataformas Windows. 
 ```
 > git clone https://github.com/afcarrera/vaccineInventory
-> cd VaccineInventory
+> cd vaccineInventory
 > cd database
 > psql -U postgres
 > \i 'create-database-vaccine_inventory.sql'
