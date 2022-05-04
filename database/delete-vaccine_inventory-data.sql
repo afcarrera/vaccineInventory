@@ -1,0 +1,10 @@
+DELETE FROM vaccine_dose;
+DELETE FROM dose;
+DELETE FROM role_option;
+DELETE FROM option;
+DELETE FROM phone_type;
+DELETE FROM employee;
+DELETE FROM vaccination_status;
+DELETE FROM vaccine;
+DELETE FROM end_user;
+DELETE FROM role;

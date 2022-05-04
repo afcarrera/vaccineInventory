@@ -1,0 +1,36 @@
+server:
+  port: 9000
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost/vaccine_inventory
+    username: postgres
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  security:
+    oauth2:
+      client:
+        registration:
+          api-client-oidc:
+            provider: spring
+            client-id: api-client
+            client-secret: secret
+            authorization-grant-type: authorization_code
+            redirect-uri: "http://127.0.0.1:9000/login/oauth2/code/{registrationId}"
+            scope: openid
+            client-name: api-client-oidc
+          api-client-authorization-code:
+            provider: spring
+            client-id: api-client
+            client-secret: secret
+            authorization-grant-type: authorization_code
+            redirect-uri: "http://127.0.0.1:9000/authorized"
+            scope: api.read
+            client-name: api-client-authorization-code
+        provider:
+          spring:
+            issuer-uri: http://127.0.0.1:8900
