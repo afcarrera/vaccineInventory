@@ -43,7 +43,7 @@ Los datos de entrada necesarios para uso del API son:
 | vaccine | type | S, AZ, P, JJ |
 El detalle de los endpoint es el siguiente.
 ### POST
-[/employee](#) 
+[/employee](#)   
 **Request**
 ```
 {
@@ -64,7 +64,7 @@ El detalle de los endpoint es el siguiente.
     "number" : "2022123312"
 }
 ```
-[/employee/{employeeId}/address](#)  
+[/employee/{employeeId}/address](#)   
 **Request**
 ```
 {
@@ -72,7 +72,7 @@ El detalle de los endpoint es el siguiente.
 }
 ```
 ### PATCH
-[/employee/{employeeId}](#) 
+[/employee/{employeeId}](#)   
 **Request**
 ```
 {
