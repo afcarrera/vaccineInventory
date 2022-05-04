@@ -48,7 +48,6 @@ El detalle de los endpoint es el siguiente.
 **Request**
 ```
 {
-    "userId" : "2", 
     "identification" : "123456789",
     "firstName" :"Alberto",
     "secondName" :"Francisco",
